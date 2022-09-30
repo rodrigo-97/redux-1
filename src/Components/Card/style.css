@@ -1,0 +1,58 @@
+.card {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+
+.card .header {
+  display: flex;
+  justify-content: center;
+}
+
+.card .header .title {
+  flex: 1;
+  padding: 5px;
+}
+
+.card .content {
+  padding: 20px;
+}
+
+.card.red .header {
+  color: #FFF;
+  background-color: #C62828;
+}
+
+.card.red .content {
+  background-color: #F44336;
+}
+
+.card.green .header {
+  color: #FFF;
+  background-color: #225a24;
+}
+
+.card.green .content {
+  background-color: #2e7d32;
+}
+
+.card.blue .header {
+  color: #FFF;
+  background-color: #114f96;
+}
+
+.card.blue .content {
+  background-color: #1566c0;
+}
+
+.card.purple .header {
+  color: #FFF;
+  background-color: #6e20a1;
+}
+
+.card.purple .content {
+  background-color: #8728c6;
+}
